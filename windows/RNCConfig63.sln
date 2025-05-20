@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RNCConfig", "RNCConfig\RNCConfig.vcxproj", "{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RNCConfig", "RNCConfig\RNCConfig.vcxproj", "{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReactNative", "ReactNative", "{4F6E56C3-12C5-4457-9239-0ACF0B7150A8}"
 EndProject
@@ -30,20 +30,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Include", "..\node_modules\react-native-windows\include\Include.vcxitems", "{EF074BA1-2D54-4D49-A28E-5E040B47CD2E}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\node_modules\react-native-windows\JSI\Shared\JSI.Shared.vcxitems*{0cc28589-39e4-4288-b162-97b959f8b843}*SharedItemsImports = 9
-		..\node_modules\react-native-windows\Shared\Shared.vcxitems*{2049dbe9-8d13-42c9-ae4b-413ae38fffd0}*SharedItemsImports = 9
-		..\node_modules\react-native-windows\Mso\Mso.vcxitems*{84e05bfa-cbaf-4f0d-bfb6-4ce85742a57e}*SharedItemsImports = 9
-		..\node_modules\react-native-windows\JSI\Shared\JSI.Shared.vcxitems*{a62d504a-16b8-41d2-9f19-e2e86019e5e4}*SharedItemsImports = 4
-		..\node_modules\react-native-windows\Chakra\Chakra.vcxitems*{c38970c0-5fbf-4d69-90d8-cbac225ae895}*SharedItemsImports = 9
-		..\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\Microsoft.ReactNative.Cxx.vcxitems*{da8b35b3-da00-4b02-bde6-6a397b3fd46b}*SharedItemsImports = 9
-		..\node_modules\react-native-windows\include\Include.vcxitems*{ef074ba1-2d54-4d49-a28e-5e040b47cd2e}*SharedItemsImports = 9
-		..\node_modules\react-native-windows\Chakra\Chakra.vcxitems*{f7d32bd0-2749-483e-9a0d-1635ef7e3136}*SharedItemsImports = 4
-		..\node_modules\react-native-windows\JSI\Shared\JSI.Shared.vcxitems*{f7d32bd0-2749-483e-9a0d-1635ef7e3136}*SharedItemsImports = 4
-		..\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\Microsoft.ReactNative.Cxx.vcxitems*{f7d32bd0-2749-483e-9a0d-1635ef7e3136}*SharedItemsImports = 4
-		..\node_modules\react-native-windows\Mso\Mso.vcxitems*{f7d32bd0-2749-483e-9a0d-1635ef7e3136}*SharedItemsImports = 4
-		..\node_modules\react-native-windows\Shared\Shared.vcxitems*{f7d32bd0-2749-483e-9a0d-1635ef7e3136}*SharedItemsImports = 4
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
 		Debug|ARM64 = Debug|ARM64
@@ -59,30 +45,30 @@ Global
 		WinUI3|x86 = WinUI3|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Debug|ARM.ActiveCfg = Debug|ARM
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Debug|ARM.Build.0 = Debug|ARM
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Debug|ARM64.Build.0 = Debug|ARM64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Debug|x64.ActiveCfg = Debug|x64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Debug|x64.Build.0 = Debug|x64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Debug|x86.ActiveCfg = Debug|Win32
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Debug|x86.Build.0 = Debug|Win32
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Release|ARM.ActiveCfg = Release|ARM
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Release|ARM.Build.0 = Release|ARM
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Release|ARM64.ActiveCfg = Release|ARM64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Release|ARM64.Build.0 = Release|ARM64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Release|x64.ActiveCfg = Release|x64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Release|x64.Build.0 = Release|x64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Release|x86.ActiveCfg = Release|Win32
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.Release|x86.Build.0 = Release|Win32
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.WinUI3|ARM.ActiveCfg = Release|ARM
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.WinUI3|ARM.Build.0 = Release|ARM
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.WinUI3|ARM64.ActiveCfg = Release|ARM64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.WinUI3|ARM64.Build.0 = Release|ARM64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.WinUI3|x64.ActiveCfg = Release|x64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.WinUI3|x64.Build.0 = Release|x64
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.WinUI3|x86.ActiveCfg = Release|Win32
-		{f1f427c9-66a2-4ed5-b482-3d583b6b20c7}.WinUI3|x86.Build.0 = Release|Win32
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Debug|ARM.Build.0 = Debug|ARM
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Debug|ARM64.Build.0 = Debug|ARM64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Debug|x64.ActiveCfg = Debug|x64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Debug|x64.Build.0 = Debug|x64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Debug|x86.Build.0 = Debug|Win32
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Release|ARM.ActiveCfg = Release|ARM
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Release|ARM.Build.0 = Release|ARM
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Release|ARM64.ActiveCfg = Release|ARM64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Release|ARM64.Build.0 = Release|ARM64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Release|x64.ActiveCfg = Release|x64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Release|x64.Build.0 = Release|x64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Release|x86.ActiveCfg = Release|Win32
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.Release|x86.Build.0 = Release|Win32
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.WinUI3|ARM.ActiveCfg = Release|ARM
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.WinUI3|ARM.Build.0 = Release|ARM
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.WinUI3|ARM64.ActiveCfg = Release|ARM64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.WinUI3|ARM64.Build.0 = Release|ARM64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.WinUI3|x64.ActiveCfg = Release|x64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.WinUI3|x64.Build.0 = Release|x64
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.WinUI3|x86.ActiveCfg = Release|Win32
+		{F1F427C9-66A2-4ED5-B482-3D583B6B20C7}.WinUI3|x86.Build.0 = Release|Win32
 		{FCA38F3C-7C73-4C47-BE4E-32F77FA8538D}.Debug|ARM.ActiveCfg = Debug|ARM
 		{FCA38F3C-7C73-4C47-BE4E-32F77FA8538D}.Debug|ARM.Build.0 = Debug|ARM
 		{FCA38F3C-7C73-4C47-BE4E-32F77FA8538D}.Debug|ARM64.ActiveCfg = Debug|ARM64
@@ -222,5 +208,18 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E57BD63-8052-4EAD-9EEB-BD1A60F44A67}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\node_modules\react-native-windows\JSI\Shared\JSI.Shared.vcxitems*{0cc28589-39e4-4288-b162-97b959f8b843}*SharedItemsImports = 9
+		..\node_modules\react-native-windows\Shared\Shared.vcxitems*{2049dbe9-8d13-42c9-ae4b-413ae38fffd0}*SharedItemsImports = 9
+		..\node_modules\react-native-windows\Mso\Mso.vcxitems*{84e05bfa-cbaf-4f0d-bfb6-4ce85742a57e}*SharedItemsImports = 9
+		..\node_modules\react-native-windows\JSI\Shared\JSI.Shared.vcxitems*{a62d504a-16b8-41d2-9f19-e2e86019e5e4}*SharedItemsImports = 4
+		..\node_modules\react-native-windows\Chakra\Chakra.vcxitems*{c38970c0-5fbf-4d69-90d8-cbac225ae895}*SharedItemsImports = 9
+		..\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\Microsoft.ReactNative.Cxx.vcxitems*{da8b35b3-da00-4b02-bde6-6a397b3fd46b}*SharedItemsImports = 9
+		..\node_modules\react-native-windows\include\Include.vcxitems*{ef074ba1-2d54-4d49-a28e-5e040b47cd2e}*SharedItemsImports = 9
+		..\node_modules\react-native-windows\Chakra\Chakra.vcxitems*{f7d32bd0-2749-483e-9a0d-1635ef7e3136}*SharedItemsImports = 4
+		..\node_modules\react-native-windows\Microsoft.ReactNative.Cxx\Microsoft.ReactNative.Cxx.vcxitems*{f7d32bd0-2749-483e-9a0d-1635ef7e3136}*SharedItemsImports = 4
+		..\node_modules\react-native-windows\Mso\Mso.vcxitems*{f7d32bd0-2749-483e-9a0d-1635ef7e3136}*SharedItemsImports = 4
+		..\node_modules\react-native-windows\Shared\Shared.vcxitems*{f7d32bd0-2749-483e-9a0d-1635ef7e3136}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal

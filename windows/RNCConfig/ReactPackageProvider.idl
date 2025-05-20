@@ -1,0 +1,9 @@
+namespace RNCConfig61
+{
+  [webhosthidden]
+  [default_interface]
+  runtimeclass ReactPackageProvider : Microsoft.ReactNative.IReactPackageProvider
+  {
+    ReactPackageProvider();
+  };
+}
